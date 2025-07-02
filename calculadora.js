@@ -15,6 +15,7 @@ const display = document.getElementById('display');
 
 function limpar () {
     display.value = '';
+    display.style.fontSize = '75px';
 }
 
 function adicionar (valor) {
@@ -27,6 +28,7 @@ function apagarUltimo () {
 
 function bhaskara () {
     display.value = 'X=(-b±√(b²-4ac))/2a';
+    display.style.fontSize = '45px';
 }
 
 function raizQuadrada () {
