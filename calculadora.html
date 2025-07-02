@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <!-- eval - ler documentação -->
-    <link rel="stylesheet" href="calculadora.css">
+    <link rel="stylesheet" href="src/calculadora.css">
 </head>
 <body>
     <div>
@@ -19,35 +19,42 @@
 
         <input type="text" id="display" disabled>
 
-        <div style="padding: 0; text-align: center; border: none; margin-top: 20px;">
+        <div style="padding: 0; text-align: center; border: none; background-color: transparent; margin: 4px auto; width: 100%;">
             <!-- Linha 1 -->
-            <button id="AC" class="btn" onclick="apagarUltimo()" ondblclick="bhaskara()" ><h6 style="font-size: medium;">AC<br><p style="font-size: small; padding: 0; margin-top: 2px;background-color: yellowgreen;color: black;">Bhaskara</p></h6></button>
-            <button id="C" class="btn" onclick="limpar()"><h6>C</h6></button>
-            <!-- <button id="Bhaskara" class="btn" onclick="bhaskara()"><h6>Bhaskara</h6></button> -->
-            <button id="mais-menos" class="btn" onclick="maisMenos()"><h6>+/-</h6></button>
-            <button id="porcentagem" class="btn" onclick="porcentagem()"><h6>%</h6></button>
+            <button id="AC" class="btn" onclick="apagarUltimo()" ondblclick="bhaskara()">
+                <p style="font-size: medium;">
+                    <strong>AC</strong>
+                    <p style="font-size: small; padding: 0; margin-top: 2px;background-color: yellowgreen;color: black;">
+                        Bhaskara
+                    </p>
+                </p>
+            </button>
+            <button id="C" class="btn" onclick="limpar()"><p>C</p></button>
+            <!-- <button id="Bhaskara" class="btn" onclick="bhaskara()"><p>Bhaskara</p></button> -->
+            <button id="mais-menos" class="btn" onclick="maisMenos()"><p>+/-</p></button>
+            <button id="porcentagem" class="btn" onclick="porcentagem()"><p>%</p></button>
             <!-- Linha 2 -->
-            <button id="7" class="btn" onclick="adicionar('7')"><h6>7</h6></button>
-            <button id="8" class="btn" onclick="adicionar('8')"><h6>8</h6></button>
-            <button id="9" class="btn" onclick="adicionar('9')"><h6>9</h6></button>
-            <button id="dividir" class="btn" onclick="adicionar('/')"><h6>/</h6></button>
+            <button id="7" class="btn" onclick="adicionar('7')"><p>7</p></button>
+            <button id="8" class="btn" onclick="adicionar('8')"><p>8</p></button>
+            <button id="9" class="btn" onclick="adicionar('9')"><p>9</p></button>
+            <button id="dividir" class="btn" onclick="adicionar('/')"><p>/</p></button>
             <!-- Linha 3 -->
-            <button id="4" class="btn" onclick="adicionar('4')"><h6>4</h6></button>
-            <button id="5" class="btn" onclick="adicionar('5')"><h6>5</h6></button>
-            <button id="6" class="btn" onclick="adicionar('6')"><h6>6</h6></button>
-            <button id="multiplicar" class="btn" onclick="adicionar('*')"><h6>*</h6></button>
+            <button id="4" class="btn" onclick="adicionar('4')"><p>4</p></button>
+            <button id="5" class="btn" onclick="adicionar('5')"><p>5</p></button>
+            <button id="6" class="btn" onclick="adicionar('6')"><p>6</p></button>
+            <button id="multiplicar" class="btn" onclick="adicionar('*')"><p>*</p></button>
             <!-- Linha 4 -->
-            <button id="1" class="btn" onclick="adicionar('1')"><h6>1</h6></button>
-            <button id="2" class="btn" onclick="adicionar('2')"><h6>2</h6></button>
-            <button id="3" class="btn" onclick="adicionar('3')"><h6>3</h6></button>
-            <button id="subtrair" class="btn" onclick="adicionar('-')"><h6>-</h6></button>
+            <button id="1" class="btn" onclick="adicionar('1')"><p>1</p></button>
+            <button id="2" class="btn" onclick="adicionar('2')"><p>2</p></button>
+            <button id="3" class="btn" onclick="adicionar('3')"><p>3</p></button>
+            <button id="subtrair" class="btn" onclick="adicionar('-')"><p>-</p></button>
             <!-- Linha 5 -->
-            <button id="0" class="btn" onclick="adicionar('0')"><h6>0</h6></button>
-            <button id="ponto" class="btn" onclick="adicionar('.')"><h6>.</h6></button>
-            <button id="igual" class="btn" onclick="calcular()"><h6>=</h6></button>
-            <button id="soma" class="btn" onclick="adicionar('+')"><h6>+</h6></button>
+            <button id="0" class="btn" onclick="adicionar('0')"><p>0</p></button>
+            <button id="ponto" class="btn" onclick="adicionar('.')"><p>.</p></button>
+            <button id="igual" class="btn" onclick="calcular()"><p>=</p></button>
+            <button id="soma" class="btn" onclick="adicionar('+')"><p>+</p></button>
         </div>
     </div>
-    <script src="calculadora.js"></script>
+    <script src="src/calculadora.js"></script>
 </body>
 </html>
