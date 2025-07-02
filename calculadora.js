@@ -26,7 +26,7 @@ function apagarUltimo () {
 }
 
 function bhaskara () {
-    display.value = 'X= (-b ± √(b² - 4ac)) / 2a';
+    display.value = 'X=(-b±√(b²-4ac))/2a';
 }
 
 function raizQuadrada () {
