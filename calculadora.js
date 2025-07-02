@@ -41,3 +41,7 @@ function raizQuadrada () {
         display.value = 'Erro';
     }
 }
+
+function maisMenos() {
+    display.value *= -1;
+}
