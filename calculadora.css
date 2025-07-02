@@ -26,15 +26,33 @@ div {
     padding: 0;
 }
 
-#Bhaskara h6{
-    font-size: small;
-}
-
 #AC {
     background-color: rgba(255, 0, 0, 0.7);
 }
 
 #AC:hover {
+    background-color: cornflowerblue;
+}
+
+#C {
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+#C:hover {
+    background-color: cornflowerblue;
+}
+
+#Bhaskara {
+    background-color: rgba(255, 251, 0, 0.7);
+}
+
+#Bhaskara h6 {
+    font-size: small;
+    font-weight: bold;
+    color: black;
+}
+
+#Bhaskara:hover {
     background-color: cornflowerblue;
 }
 
