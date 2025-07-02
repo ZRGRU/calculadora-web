@@ -88,3 +88,8 @@ div {
     height: 50px;
     background-color: azure;
 }
+
+@font-face {
+    font-family: 'calculator';
+    src: url('Calculator.ttf') format('truetype');
+}
