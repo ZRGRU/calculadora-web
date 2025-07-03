@@ -2,6 +2,6 @@
 
 ## Calculadora usando HTML, CSS e JavaScript
 
-| ![Calculadora - modelo](/src/img/calc-modelo.webp)| ![Calculadora - captura de tela](/src/img/calc-captura.png) |
+| <img src="/src/img/calc-modelo.webp" alt="Calculadora - modelo" width="150"> | <img src="/src/img/calc-captura.png" alt="Calculadora - captura de tela" width="150"> |
 |:--:|:--:|
 | *Modelo de calculadora* | *Captura de tela da calculadora* |
